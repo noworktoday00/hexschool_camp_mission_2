@@ -246,7 +246,17 @@
   @media ( max-width:574px ) {
     margin: 420px 20px 0 20px;
     .choicePrice {
-      overflow: hidden;
+      overflow-x: auto;
+      white-space: nowrap;
+      height: 50px;
+      .btn {
+        width: 90px;
+        height: 40px;
+        font-size: 16px;
+        line-height: 40px;
+        margin-right: 15px;
+        padding: 0 16px;
+      }
     }
     .program {
       justify-content: center;
